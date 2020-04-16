@@ -1,0 +1,306 @@
+body {font-family: 'Raleway', sans-serif;}
+.navbar {background-color: #1E1E2C;}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 300;
+}
+
+.nav-item.active a{
+    font-weight: 600;
+    color: #33E1ED !important;
+}
+
+.nav-link span {
+    font-weight: 600;
+    color: #33E1ED !important;
+}
+
+
+/* carousel */
+
+.carousel {
+    height: 450px;
+    background-color: #1E1E2C;
+    color: white;
+}
+
+.carousel h1 {font-family: 'Roboto Slab';}
+.carousel p {font-weight: 300;}
+
+.carousel .btn {
+    padding: 10px 40px;
+    background-color: #2D2D44;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.carousel .btn:hover {background-color: #232335;}
+
+
+/* items */
+
+.item {background-color: #F7F7F7;}
+
+.item h3, .designer h3, .product h3, .similar h3, .cart h3, .category h3 {
+    font-family: 'Roboto Slab';
+    color: #1E1E2C;
+}
+
+.item p, .designer p, .product p, .similar p, .cart p, .modal p, .category p {
+    color: #707070;
+    font-weight: 300;
+}
+
+.figure h5 {
+    font-family: 'Roboto Slab';
+    color: #1E1E2C;
+}
+
+.figure p {
+    font-family: 'Roboto Slab';
+    color: #707070;
+    font-weight: 300;
+}
+
+.figure-img {position: relative;}
+
+.figure-img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.figure-img:hover a{opacity: 1;}
+
+
+/* designers */
+
+.figure-dsg img {border-radius: 50%;}
+.figure-dsg:hover img{border: 1px solid #1E1E2C}
+
+
+/* footer */
+
+footer {background-color: #1E1E2C;}
+footer p {font-weight: 300;}
+footer p span {font-weight: 600;}
+
+footer nav a{
+    color: #ffffff !important;
+    font-weight: 300;
+}
+
+footer a:hover{
+        font-weight: 600;
+        color: #33E1ED !important;
+    }
+
+
+/* /brcrumb */
+
+.breadcrumb {
+    margin-top: 100px;
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.thumbnail-container {
+    width: 380px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.thumbnail-container a {text-decoration: none;}
+
+.thumbnail-container a.active img{border: 1px solid #33E1ED;}
+.thumbnail-container img:hover{border: 1px solid #33E1ED;}
+
+
+
+/* product */
+
+.product p {
+    font-family: 'Roboto Slab';
+    margin-bottom: 30px;
+}
+
+.product .btn, .checkout .btn {
+    background-color: #6B6B7B;
+    border-radius: 8px;
+}
+
+.product span {font-weight: 600;}
+
+.btn-prod .btn {
+    color: white;
+    margin: 30px 0;
+    display: block;
+    border-radius: 0;
+}
+
+.btn-prod {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 40px;
+}
+
+.dsb h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dsb h4 {
+    font-size: 18px;
+    font-family: 'Roboto Slab';
+}
+
+.dsb p {
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    color: #B4B4B4;
+}
+
+.dsb p span {
+    color: #1E1E2C;
+    font-weight: 300;
+}
+
+/* prdoescr */
+
+.desc {
+    background-color: #F7F7F7;
+    height: 350px;
+}
+
+.desc .tab-content {
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.desc p {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.desc .nav-item {margin-right: 8px;}
+.desc .nav a {font-weight: 600;}
+.desc .nav a span {color: #33E1ED;}
+
+.desc .nav a[aria-selected=false] {
+    background-color: #2D2D44;
+    font-weight: 300;
+    color: #fff;
+}
+
+.review h5 {
+    font-family: 'Roboto Slab';
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.review p {font-size: 14px;}
+
+
+/* /simprod */
+
+.similar {margin-top: 100px;}
+
+
+/* cart */
+
+.cartbread {margin-top: 0;}
+
+
+/* checkout */
+
+.checkout h4, .modal h4 {
+    font-family: 'Roboto Slab';
+    color: #1E1E2C;
+}
+
+.checkout .dlt p {
+    font-weight: 600;
+    color: #1E1E2C;
+}
+
+.checkout .nameitem h5 {
+    font-family: 'Roboto Slab';
+    color: #707070;
+    font-weight: 400;
+}
+
+.checkout .nameitem p {
+    font-family: 'Roboto Slab';
+    color: #B4B4B4;
+    font-weight: 300;
+}
+
+.checkout span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.checkout input[type=text], .checkout select {
+    background-color: #2D2D44;
+    color: #FFF;    
+}
+
+.checkout input::placeholder {color: #FFF;}
+
+.card {
+    background-color: #2D2D44;
+    color: #fff;
+}
+
+/* card */
+
+.checkout .card h4 {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    color: #fff;
+}
+
+.checkout .card small {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+}
+
+.checkout .card h6 {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+}
+
+.checkout .btn {color: #fff;}
+
+/* modal */
+.modal img {margin-bottom: 64px;}
+
+.modal button {
+    margin-top: 64px;
+    background-color: #2D2D44; 
+    font-weight: 600;
+    padding: 7px 42px;
+}
+
+/* category */
+
+.category a {
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
